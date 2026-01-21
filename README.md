@@ -27,42 +27,18 @@ Each notebook builds understanding — not just code.
 
 ---
 
-## 🚀 Step-by-step: Open the Project in VS Code (GitHub Codespaces)
-
-We use **GitHub Codespaces** so you don’t need to install anything on your computer.
-
-### Step 1 — Create a Codespace
-1. Open this GitHub repository in your browser
-2. Click **Code → Codespaces → Create codespace on main**
-3. Wait until VS Code opens (usually less than a minute)
-
-✅ You are now inside VS Code with the project ready.
-
-
-### 🐍 Step 2 — Check Python
-
-Open the terminal in VS Code and run:
-```bash
-python --version
-```
-You should see a Python version (3.10 or higher is fine).
-
+## 🚀 Step-by-step: Open the Project in VS Code 
 
 ### 📦 Step 3 — Create a Virtual Environment
 We use a virtual environment to keep things clean and isolated.
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-```
+pip install uv
+uv venv --python=3.11
+source .venv/bin/activate (on macOS/Linux)
+.venv\Scripts\activate (on Windows)
+uv pip install -r requirements.txt
 
-If VS Code asks you to select a Python interpreter, choose the one inside .venv.
-
-### 📥 Step 4 — Install Required Libraries
-
-```bash
-pip install -r requirements.txt
 ```
 
 This installs everything needed for:
