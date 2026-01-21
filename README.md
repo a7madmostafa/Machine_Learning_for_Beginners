@@ -93,6 +93,8 @@ source .venv/bin/activate
 uv pip install -r requirements.txt
 ```
 
+--- 
+
 ## 🚀 Step 2: Run the Notebooks
 
 ⚠️ **Important:** Run the notebooks in this exact order.
@@ -122,6 +124,8 @@ uv pip install -r requirements.txt
 - What probabilities mean in Machine Learning
 - How ML decisions are actually made
 
+---
+
 ## 🎉 Congratulations! 
 Now, you can run the web app `app.py`
 
@@ -148,6 +152,7 @@ Then, open the provided local URL in your browser to interact with the app.
 - Change values and observe what happens
 - Break things safely — that’s how learning works
 
+---
 
 ## ✅ By the End, You Will Be Able To
 
